@@ -20,20 +20,20 @@ It illustrates separation of concerns -
   - Loaded dynamically during inference
 
 # Architecture Overview
+<p align="center">
+  <img src="architecture/hf-autotrain-gradio-inference.png" width="500"/>
+</p>
 <p align="center"><em>
 Figure 1: Enterprise solution view vis-a-vis current setup.
 </em></p>
-<p align="center">
-  <img src="architecture/hf-autotrain-gradio-inference.png" width="800"/>
-</p>
 
 # Model Lifecycle
-<p align="center"><em>
-Figure 3: Dataset → AutoTrain → Model Registry (HF) → Runtime Inference.
-</em></p>
 <p align="center">
-  <img src="architecture/Lifecycle.png" width="800"/>
+  <img src="architecture/Lifecycle.png" width="300"/>
 </p>
+<p align="center"><em>
+Figure 2: Dataset → AutoTrain → Model Registry (HF) → Runtime Inference.
+</em></p>
 
 # Inference Layer
   - Uses transformers.pipeline
