@@ -1,5 +1,11 @@
 import gradio as gr
 from transformers import pipeline
+from huggingface_hub import login
+
+
+import os
+hf_token=os.environ['HF_API_KEY']
+login(token=hf_token)
 
 # Load the Hugging Face model
 MODEL_ID = "publopatrik/autotrain-ast"  # Replace with your model repo
