@@ -24,7 +24,7 @@ It illustrates separation of concerns -
 Figure 1: Enterprise solution view vis-a-vis current setup.
 </em></p>
 <p align="center">
-  <img src="images/hf-autotrain-gradio-inference.png" width="800"/>
+  <img src="architecture/hf-autotrain-gradio-inference.png" width="800"/>
 </p>
 
 # Model Lifecycle
@@ -32,7 +32,7 @@ Figure 1: Enterprise solution view vis-a-vis current setup.
 Figure 3: Dataset → AutoTrain → Model Registry (HF) → Runtime Inference.
 </em></p>
 <p align="center">
-  <img src="images/Lifecycle.png" width="800"/>
+  <img src="architecture/Lifecycle.png" width="800"/>
 </p>
 
 # Inference Layer
